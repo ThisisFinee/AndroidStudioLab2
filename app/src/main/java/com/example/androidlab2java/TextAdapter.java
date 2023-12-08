@@ -22,7 +22,7 @@ public class TextAdapter extends RecyclerView.Adapter<TextAdapter.ViewHolder>{
 
     @NonNull
     @Override
-    public TextAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
+    public TextAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
         View view = inflater.inflate(R.layout.purchases_list, parent, false);
         return new ViewHolder(view);
     }
